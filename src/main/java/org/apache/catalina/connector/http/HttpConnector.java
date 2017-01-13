@@ -871,7 +871,7 @@ public final class HttpConnector
             }
         }
         created.addElement(processor);
-        return (processor);
+        return processor;
 
     }
 

@@ -331,7 +331,7 @@ final class HttpProcessor
         if ((debug >= 1) && (socket != null))
             log("  The incoming request has been awaited");
 
-        return (socket);
+        return socket;
 
     }
 

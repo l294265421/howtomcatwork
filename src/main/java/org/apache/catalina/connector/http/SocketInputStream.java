@@ -141,6 +141,7 @@ public class SocketInputStream extends InputStream {
         if (chr == -1)
             throw new EOFException
                 (sm.getString("requestStream.readline.error"));
+        // 是为了将pos设置为-1吗?
         pos--;
 
         // Reading the method name
