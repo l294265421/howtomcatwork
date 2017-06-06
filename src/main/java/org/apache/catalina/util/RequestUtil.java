@@ -490,6 +490,7 @@ public final class RequestUtil {
         if (data != null && data.length > 0) {
             int    pos = 0;
             int    ix = 0;
+            // 用data前面的空间保存当前的key/value
             int    ox = 0;
             String key = null;
             String value = null;
